@@ -21,9 +21,7 @@ license = {file = "LICENSE"}
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-  "numpy==1.23.5",
   "soundfile",
-  "librosa",
   "torchlibrosa",
   "ftfy",
   "braceexpand",
@@ -31,12 +29,8 @@ dependencies = [
   "wget",
   "wandb",
   "llvmlite",
-  "scipy",
-  "scikit-learn",
-  "pandas",
   "h5py",
   "tqdm",
-  "regex",
   "transformers",
   "progressbar"
 ]
